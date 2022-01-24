@@ -14,10 +14,10 @@ Para se rodar o script, ele deve estar na mesma pasta que os '.CSV's fornecidos.
 ### Tecnologia usada e autor
 <img align="left" alt="R" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" /> foi utilizado com suas bibliotecas, sendo o projeto desenvolvido por Victor Hugo da Silva Vieira.
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
+<a href="https://www.youtube.com/watch?v=G1IbRujko-A&t=12s&ab_channel=10Hours">
  <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQGVx6sZGwcBVw/profile-displayphoto-shrink_800_800/0/1634108506151?e=1648684800&v=beta&t=-b5psjWh932Xl3Jo0vZB1fzANCQxEsdiHF7XhT6uhi0" width="100px;" alt=""/>
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
+ <sub><b>Victor Vieira</b></sub></a> <a href="https://www.movenowthinklater.com" title="ShinyBoy">🤖</a>
 
 
 Qualquer dúvida, é só entrar em contato!

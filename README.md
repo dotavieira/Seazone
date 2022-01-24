@@ -12,5 +12,5 @@ Projeto básico para o processo seletivo da vaga de Análista de dados Jr.
 Para se rodar o script, ele deve estar na mesma pasta que os '.CSV's fornecidos.
 
 ### Tecnologia usada e autor
-Foi utilizado penas a linguagem R com suas bibliotecas, sendo o projeto desenvolvido por Victor Hugo da Silva Vieira.
+<img align="left" alt="R" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/r/r.png" /> foi utilizado com suas bibliotecas, sendo o projeto desenvolvido por Victor Hugo da Silva Vieira.
 

@@ -35,7 +35,7 @@ Numero_de_airbnb_suburbio = details %>%
                               rename(Bairro = suburb)
 
 graph_1 <- plot_ly(Numero_de_airbnb_suburbio, labels = ~Bairro, values = ~`Número de AirBnB's`, marker = list(colors = c('#ff5733', '#ffbd33','#dbff33', '#75ff33', '#33ffbd')), type = 'pie') %>%
-            layout(title = "")
+            layout(title = "", xaxis= list(showticklabels = FALSE))
 
 print(paste0('Centro: ',Numero_de_airbnb_suburbio$`Número de AirBnB's`[1]))
 print(paste0('Lagoa da Conceição: ',Numero_de_airbnb_suburbio$`Número de AirBnB's`[2]))
@@ -61,7 +61,7 @@ Media_valor_suburbio = details_priceav %>%
  
 graph_2 <- plot_ly(Media_valor_suburbio, x = ~Bairro, y = ~Media, type = 'bar', color = ~Bairro,
                    colors = c(Ingleses='#33ffbd', Canasvieiras='#75ff33', Jurerê='#dbff33', `Lagoa da Conceição`='#ffbd33', Centro='#ff5733')) %>%
-            layout(title = "")
+            layout(title = "", xaxis= list(showticklabels = FALSE))
 
 Media_valor_suburbio$Media = paste0("$ ",format(Media_valor_suburbio$Media, digits = 5))
 

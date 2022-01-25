@@ -2,9 +2,6 @@ library(tidyverse)
 library(hms)
 library(plotly)
 
-#Ageitando o Working Directory
-setwd("D:/Downloads/Victor/Processo Seletivo")
-
 ## Lendo os dados
 details = read.csv2("desafio_details.csv", sep = ',', encoding = 'UTF-8')
 priceav = read.csv2("desafio_priceav.csv", sep = ',', encoding = 'UTF-8')
@@ -21,7 +18,7 @@ Numero_de_airbnb_suburbio = details %>%
                               rename(Bairro = suburb)
 
 graph_1 <- plot_ly(Numero_de_airbnb_suburbio, labels = ~Bairro, values = ~`Número de AirBnB's`, marker = list(colors = c('#ff5733', '#ffbd33','#dbff33', '#75ff33', '#33ffbd')), type = 'pie') %>%
-            layout(title = "Número de AirBnB's por região")
+            layout(title = "Número de AirBnB's por região", xaxis= list(showticklabels = FALSE))
 graph_1
 
 #################################  2
@@ -36,7 +33,7 @@ Media_valor_suburbio = details_priceav %>%
 
 graph_2 <- plot_ly(Media_valor_suburbio, x = ~Bairro, y = ~Media, type = 'bar', color = ~Bairro,
                    colors = c(Ingleses = '#33ffbd', Canasvieiras = '#75ff33', Jurerê = '#dbff33', `Lagoa da Conceição` = '#ffbd33', Centro = '#ff5733')) %>%
-            layout(title = "Valor médio de anúncio por região")
+            layout(title = "Valor médio de anúncio por região", xaxis= list(showticklabels = FALSE))
 graph_2
 
 
@@ -58,8 +55,4 @@ Antecedencia_agendamento_fds = Antecedencia_agendamento %>%
 
 ## Média de antecedência de agendamento do fim de semana
 `Média antecedência de agendamento FDS` = sum(Antecedencia_agendamento_fds$Antecedência)/nrow(Antecedencia_agendamento_fds)
-
-
-
-
 
